@@ -1,0 +1,16 @@
+[package]
+name = "p10-replay-cli"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+publish = false
+license = "MIT OR Apache-2.0"
+description = "Command-line adapter around the P10 S2b replay verifier. Adapter only; not S2a, not a P10 verdict."
+
+[[bin]]
+name = "p10-replay"
+path = "src/main.rs"
+
+[dependencies]
+p10_replay = { git = "https://github.com/VolMax-Studio/p10-replay-verifier", tag = "v0.1.1-s2b-public" }
+serde_json = "=1.0.132"
