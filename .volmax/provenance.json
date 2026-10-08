@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "90c2706a981b0071bd627278f5a59fb9cdbc9a8c",
+  "baseline_tree": "1a6fceab7be274fd38386b1dc1cd136cf782dcd8",
+  "behavior": {
+    "callbacks": false,
+    "executable": false,
+    "network_calls": false,
+    "telemetry": false
+  },
+  "canonical_url": "https://github.com/VolMax-Studio/p10-replay-cli",
+  "default_branch_at_recording": "main",
+  "license": {
+    "detected_spdx": "Apache-2.0",
+    "files": [
+      "LICENSE-APACHE",
+      "LICENSE-MIT"
+    ],
+    "note": "This provenance record does not grant or alter license rights."
+  },
+  "owner": "VolMax-Studio",
+  "record_id": "urn:volmax:github:VolMax-Studio/p10-replay-cli:90c2706a981b0071bd627278f5a59fb9cdbc9a8c",
+  "record_type": "volmax.repository-provenance",
+  "record_version": 1,
+  "recorded_at": "2026-10-08T19:27:59+00:00",
+  "repository": "VolMax-Studio/p10-replay-cli",
+  "schema": "urn:volmax:provenance:v1",
+  "scope": "Repository identity and baseline commit only; historical tags, releases, evidence, authorship, and existing file bytes are unchanged."
+}
